@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-# import rasterio 
+import rasterio 
 from rasterio.features import geometry_mask
 
 app = FastAPI()
